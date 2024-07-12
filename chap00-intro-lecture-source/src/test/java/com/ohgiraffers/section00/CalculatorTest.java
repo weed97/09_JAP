@@ -49,7 +49,5 @@ public class CalculatorTest {
         int result = calculator.subtract(a1, b2);
 
         assertEquals(7, result);
-
-
     }
 }
