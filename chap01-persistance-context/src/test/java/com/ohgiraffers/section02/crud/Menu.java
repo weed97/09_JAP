@@ -16,7 +16,7 @@ public class Menu {
 
     @Id// pk에 해당하는 속성에 지정
     @Column(name="menu_code") // 데이터베이스에 대응되는 컬럼명 지정
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // 기본키 값을 데이터 베이스에서 생성하도록 지정
+//    @GeneratedValue(strategy = GenerationType.IDENTITY) // 기본키 값을 데이터 베이스에서 생성하도록 지정
     private int menuCode;
 
     @Column(name="menu_name")
