@@ -1,11 +1,12 @@
 package com.ohgiraffers.section01.problem;
 
+
 import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 @Setter
+@Getter
 @ToString
 public class Category {
 

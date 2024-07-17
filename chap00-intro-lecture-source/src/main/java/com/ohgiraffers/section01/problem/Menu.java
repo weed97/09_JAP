@@ -1,12 +1,11 @@
 package com.ohgiraffers.section01.problem;
 
-
 import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 @Setter
+@Getter
 @ToString
 public class Menu {
 
@@ -15,4 +14,5 @@ public class Menu {
     private int menuPrice;
     private int categoryCode;
     private String orderableStatus;
+
 }
