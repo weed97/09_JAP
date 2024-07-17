@@ -4,8 +4,8 @@ import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 @Setter
+@Getter
 @ToString
 public class MenuAndCategory {
 
@@ -14,4 +14,6 @@ public class MenuAndCategory {
     private int menuPrice;
     private Category category;
     private String orderableStatus;
+
+
 }
