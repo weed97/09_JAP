@@ -97,6 +97,7 @@ public class SimpleJPQLTests {
         //when
         String jpql = "select m from menu_section01 m where m.menuCode = 7";
 
+        // 엔티티
         TypedQuery<Menu> query =
                 entityManager.createQuery(jpql, Menu.class); // 반환 타입을 매핑한 엔티티타입으로 설정
 
